@@ -1,0 +1,22 @@
+# Clima e desempenho na Fórmula 1 — dependências
+# Python >= 3.10
+# Instalar com:  pip install -r requirements.txt
+
+# Coleta de dados (versão fixada: mudanças na biblioteca alteram a coleta)
+fastf1==3.9.0
+
+# Manipulação de dados
+pandas>=2.1
+numpy>=1.26
+
+# Estatística e econometria
+scipy>=1.11
+statsmodels>=0.14
+patsy>=0.5
+
+# Gráficos
+matplotlib>=3.8
+seaborn>=0.13
+
+# Exportação das tabelas para Excel
+openpyxl>=3.1
