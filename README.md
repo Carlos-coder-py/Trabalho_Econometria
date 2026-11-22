@@ -73,7 +73,7 @@ O dicionário completo é gerado em `dados/tratados/dicionario_variaveis.csv`.
 As pastas `dados/` e `f1_cache/` não são versionadas no Git porque são grandes e podem ser recriadas
 pelos códigos. As bases usadas no artigo estão disponíveis em:
 
-- **Dados brutos, tratados e finais:** `[dados.zip na Release v1.0](https://github.com/Carlos-coder-py/Trabalho_Econometria/releases/tag/v1.0)`
+- **Dados brutos, tratados e finais:** [dados.zip na Release v1.0](https://github.com/Carlos-coder-py/Trabalho_Econometria/releases/tag/v1.0)
 
 Para recriá-las do zero, siga a seção 4.
 
