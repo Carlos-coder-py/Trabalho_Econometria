@@ -77,6 +77,8 @@ pelos códigos. As bases usadas no artigo estão disponíveis em:
 
 Para recriá-las do zero, siga a seção 4.
 
+Observação: A pasta `f1_cache/` é criada automaticamente pelo `01_coleta.py` e só é necessária para refazer a coleta; quem usar o `dados.zip` pode começar pelo `02_tratamento.py`.
+
 ---
 
 ## 3. Estrutura do repositório
