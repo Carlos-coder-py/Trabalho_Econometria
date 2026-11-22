@@ -1,0 +1,29 @@
+﻿Nível,Variável,N,Média,Desvio-padrão,Mínimo,P25,Mediana,P75,Máximo,Assimetria
+Corrida,Temperatura da pista (°C),133,35.465,9.394,16.574,29.701,35.823,42.955,55.254,-0.048
+Corrida,Temperatura do ar (°C),133,23.881,5.063,10.918,20.323,24.205,27.245,36.785,-0.135
+Corrida,Umidade relativa (%),133,53.922,17.456,6.879,40.699,56.783,65.278,93.189,-0.155
+Corrida,Velocidade do vento (m/s),133,1.604,0.921,0.197,0.994,1.5,1.977,5.597,1.221
+Corrida,Proporção do tempo com chuva,133,0.038,0.13,0.0,0.0,0.0,0.0,0.973,4.758
+Corrida,Proporção de voltas com pneu de chuva,133,0.064,0.2,0.0,0.0,0.0,0.0,1.0,3.478
+Corrida,Proporção do tempo sob SC/VSC,133,0.075,0.075,0.0,0.0,0.064,0.113,0.42,1.304
+Piloto-corrida,Ritmo vs. referência do circuito (%),2584,1.148,3.596,-4.308,-0.771,0.336,1.827,28.555,3.006
+Piloto-corrida,Ritmo vs. mediana da corrida (%),2604,0.247,1.319,-2.967,-0.515,0.232,0.763,26.411,5.227
+Piloto-corrida,Inconsistência: DP do ritmo (p.p.),2599,1.414,1.018,0.131,0.961,1.186,1.501,18.545,5.745
+Piloto-corrida,Inconsistência: DP do resíduo no stint (p.p.),2598,0.728,0.488,0.064,0.425,0.593,0.864,7.518,3.21
+Piloto-corrida,Erros por 100 voltas,2675,1.593,3.622,0.0,0.0,0.0,2.0,100.0,15.962
+Piloto-corrida,Erros (contagem),2675,0.835,1.264,0.0,0.0,0.0,1.0,13.0,2.579
+Piloto-corrida,Voltas anuladas (limite de pista),2675,0.665,1.094,0.0,0.0,0.0,1.0,11.0,2.389
+Piloto-corrida,Penalidades de pilotagem,2675,0.059,0.249,0.0,0.0,0.0,0.0,3.0,4.537
+Piloto-corrida,Rodadas (direção de prova),2675,0.006,0.079,0.0,0.0,0.0,0.0,1.0,12.424
+Piloto-corrida,Voltas lentas suspeitas,2675,0.105,0.365,0.0,0.0,0.0,0.0,6.0,5.354
+Piloto-corrida,Abandono (0/1),2675,0.136,0.343,0.0,0.0,0.0,0.0,1.0,2.118
+Piloto-corrida,Abandono por acidente (0/1),2675,0.063,0.243,0.0,0.0,0.0,0.0,1.0,3.591
+Piloto-corrida,Posição de largada,2675,11.074,6.059,1.0,6.0,11.0,16.0,22.0,-0.033
+Piloto-corrida,Voltas disputadas,2675,55.443,15.784,1.0,51.0,57.0,68.0,78.0,-1.669
+Piloto-corrida,Experiência: GPs disputados antes da corrida,2675,144.609,105.213,0.0,54.0,133.0,208.0,445.0,0.676
+Piloto-corrida,Idade do piloto (anos),2675,28.531,6.07,18.557,23.955,27.055,32.064,45.279,0.829
+Volta (voltas de ritmo),Ritmo da volta vs. referência do circuito (%),126579,0.876,4.111,-7.823,-1.213,0.117,1.608,51.813,3.399
+Volta (voltas de ritmo),Ritmo da volta vs. mediana da corrida (%),127666,0.13,2.002,-12.757,-1.008,-0.002,1.051,52.047,3.923
+Volta (voltas de ritmo),Temperatura da pista na volta (°C),127643,36.029,9.383,13.8,29.7,35.8,43.2,57.5,-0.083
+Volta (voltas de ritmo),Temperatura do ar na volta (°C),127666,24.003,5.01,9.8,20.4,24.3,27.7,37.2,-0.112
+Volta (voltas de ritmo),Idade do pneu (voltas),126625,15.433,10.046,1.0,8.0,13.0,21.0,78.0,1.094

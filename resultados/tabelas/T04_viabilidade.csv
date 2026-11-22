@@ -1,0 +1,10 @@
+﻿Indicador,Valor,Base,Leitura
+Parcela da variância de 'Temperatura da pista (°C)' dentro dos circuitos,0.527,Corrida,1 − R² da regressão da temperatura em dummies de circuito
+Parcela da variância de 'Temperatura do ar (°C)' dentro dos circuitos,0.434,Corrida,1 − R² da regressão da temperatura em dummies de circuito
+Parcela da variância da temperatura da pista dentro da corrida,0.028,Volta,variação ao longo da própria corrida (entre voltas)
+Correlação entre temperatura do ar e da pista,0.74,Corrida,Pearson
+VIF — Temperatura da pista (°C),2.771,Corrida,VIF > 10 indica multicolinearidade severa
+VIF — Temperatura do ar (°C),2.239,Corrida,VIF > 10 indica multicolinearidade severa
+VIF — Umidade relativa (%),1.641,Corrida,VIF > 10 indica multicolinearidade severa
+VIF — Velocidade do vento (m/s),1.029,Corrida,VIF > 10 indica multicolinearidade severa
+VIF — Proporção do tempo com chuva,1.197,Corrida,VIF > 10 indica multicolinearidade severa

@@ -1,0 +1,62 @@
+4.1 Carregando as bases finais...
+  experiência: GPs anteriores de 0 a 445 (mediana 133); 2675 observações com histórico
+  temperatura da pista centrada em 37.5 °C (média das corridas secas)
+  2675 observações piloto-corrida; 133 corridas; 21 molhadas
+4.2 H1 — temperatura x ritmo e consistência (corridas secas)...
+  H1 (1): +1 °C na pista -> ritmo +0.0679 p.p. (EP 0.0213, p = 0.002); +10 °C -> +0.679 p.p.
+  H1 (3) Inconsistência (stint): linear -0.0041 (p = 0.058), quadrático +0.00041 (p = 0.034)
+  H1 (4) Inconsistência (janela): linear +0.0001 (p = 0.952), quadrático +0.00014 (p = 0.457)
+4.3 H1 — modelo no nível da volta (robustez)...
+  H1 (volta): +1 °C -> +0.0549 p.p. (p = <0,001); N = 119838
+4.4 H2 — chuva x tipos de erro...
+  H2 (1) Rodada ou abandono por acidente (0/1): molhada +0.0398 (EP 0.0256, p = 0.122); média no seco = 0.0617
+  H2 (2) Voltas lentas suspeitas por 100 voltas: molhada +0.3384 (EP 0.1511, p = 0.027); média no seco = 0.1527
+  H2 (3) Voltas anuladas por 100 voltas: molhada +0.0440 (EP 0.2659, p = 0.869); média no seco = 1.2671
+  H2 (4) Penalidade de pilotagem (0/1): molhada -0.0260 (EP 0.0149, p = 0.083); média no seco = 0.0586
+  H2 (5) Inconsistência vs. grid (p.p.): molhada +0.3453 (EP 0.0596, p = <0,001); média no seco = 0.7665
+4.5 H3 — experiência do piloto x efeito da chuva...
+  H3 (1) Rodada ou acidente (0/1): θ = -0.0581 (EP 0.0183; p bilateral = 0.002; p unilateral = <0,001); chuva p/ 19 GPs = +0.1307, p/ 294 GPs = -0.0257
+  H3 (2) Voltas lentas por 100 voltas: θ = -0.1172 (EP 0.0617; p bilateral = 0.060; p unilateral = 0.030); chuva p/ 19 GPs = +0.5276, p/ 294 GPs = +0.2123
+  H3 (3) Inconsistência vs. grid (p.p.): θ = -0.0289 (EP 0.0164; p bilateral = 0.081; p unilateral = 0.040); chuva p/ 19 GPs = +0.3914, p/ 294 GPs = +0.3136
+  H3 (4) Ritmo relativo ao grid (%): θ = -0.0757 (EP 0.0502; p bilateral = 0.134; p unilateral = 0.067); chuva p/ 19 GPs = +0.5248, p/ 294 GPs = +0.3210
+4.5b H3 — robustez...
+  H3 robustez — Principal (Tabela M4) — PerdaControle: -0.0581 (p = 0.002)
+  H3 robustez — Principal (Tabela M4) — VoltasLentas_100: -0.1172 (p = 0.060)
+  H3 robustez — Experiência em dummy: veterano (acima da mediana de GPs) — PerdaControle: -0.0652 (p = 0.080)
+  H3 robustez — Experiência em dummy: veterano (acima da mediana de GPs) — VoltasLentas_100: -0.0481 (p = 0.650)
+  H3 robustez — Experiência na chuva: log(1 + corridas molhadas anteriores, desde 2021) — PerdaControle: -0.0678 (p = 0.017)
+  H3 robustez — Experiência na chuva: log(1 + corridas molhadas anteriores, desde 2021) — VoltasLentas_100: -0.0897 (p = 0.337)
+  H3 robustez — Controle de idade: + Molhada × Idade — PerdaControle: -0.0795 (p = 0.007)
+  H3 robustez — Controle de idade: + Molhada × Idade — VoltasLentas_100: -0.1554 (p = 0.097)
+  H3 robustez — Efeito fixo piloto × chuva (só variação dentro do piloto) — PerdaControle: -0.0776 (p = 0.067)
+  H3 robustez — Efeito fixo piloto × chuva (só variação dentro do piloto) — VoltasLentas_100: -0.0617 (p = 0.712)
+  H3 robustez — Efeito fixo equipe × chuva (carro na chuva) — PerdaControle: -0.0528 (p = 0.005)
+  H3 robustez — Efeito fixo equipe × chuva (carro na chuva) — VoltasLentas_100: -0.0848 (p = 0.162)
+  H3 robustez — Erros agrupados por corrida e por piloto (agrupamento duplo) — PerdaControle: -0.0581 (p = 0.005)
+  H3 robustez — Erros agrupados por corrida e por piloto (agrupamento duplo) — VoltasLentas_100: -0.1172 (p = 0.093)
+  H3 robustez — Sem a temporada 2026 — PerdaControle: -0.0668 (p = <0,001)
+  H3 robustez — Sem a temporada 2026 — VoltasLentas_100: -0.1453 (p = 0.028)
+4.5c H3 complementar — heterogeneidade entre pilotos...
+  H3 compl. Ritmo relativo ao grid (%) × chuva: F(31) = 5.32, p = <0,001
+  H3 compl. Rodada ou abandono por acidente (0/1) × chuva: F(31) = 3.21, p = <0,001
+  H3 compl. Voltas lentas por 100 voltas × chuva: F(31) = 2.29, p = <0,001
+  H3 compl. Inconsistência vs. grid (p.p.) × chuva: F(31) = 9.43, p = <0,001
+  H3 compl. ritmo × temperatura: F(31) = 3.66, p = <0,001
+  H3 compl. Ritmo relativo ao grid (%) — com efeito fixo equipe × chuva (carro na chuva): F(29) = 4.37, p = <0,001
+  H3 compl. Rodada ou abandono por acidente (0/1) — com efeito fixo equipe × chuva (carro na chuva): F(29) = 3.63, p = <0,001
+  H3 compl. Voltas lentas por 100 voltas — com efeito fixo equipe × chuva (carro na chuva): F(29) = 2.24, p = 0.001
+  H3 compl. Inconsistência vs. grid (p.p.) — com efeito fixo equipe × chuva (carro na chuva): F(29) = 3.75, p = <0,001
+  H3 compl. Ritmo relativo ao grid (%) — só pilotos com >= 8 corridas molhadas: F(22) = 3.40, p = <0,001
+  H3 compl. Rodada ou abandono por acidente (0/1) — só pilotos com >= 8 corridas molhadas: F(22) = 3.69, p = <0,001
+  H3 compl. Voltas lentas por 100 voltas — só pilotos com >= 8 corridas molhadas: F(22) = 1.67, p = 0.041
+  H3 compl. Inconsistência vs. grid (p.p.) — só pilotos com >= 8 corridas molhadas: F(22) = 8.20, p = <0,001
+  H3 compl. Ritmo relativo ao grid (%) — permutação: p = 0.075 (199 sorteios)
+  H3 compl. Rodada ou abandono por acidente (0/1) — permutação: p = 0.150 (199 sorteios)
+4.6 Robustez...
+  2021–2022: chuva não varia dentro dos circuitos nessa subamostra; estimado sem efeito fixo de circuito
+4.7 Figuras dos modelos...
+  figura: F10_H1_efeito_temperatura.png — efeito previsto da temperatura
+  figura: F11_H2_efeito_chuva.png — efeito da chuva por tipo de erro
+  figura: F12_H3_efeito_experiencia.png — efeito da chuva conforme a experiência
+  figura: F13_H3_efeito_piloto.png — efeito da chuva por piloto
+Tabelas salvas em /Users/carloseduardoborbadomingues/Desktop/Trabalho_Econometria/resultados/tabelas/tabelas_modelos.xlsx

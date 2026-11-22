@@ -1,0 +1,12 @@
+﻿Variável,(1) Ritmo — linear,(2) Ritmo — quadrático,(3) Inconsistência (stint),(4) Inconsistência (janela)
+"Temperatura da pista (°C, centrada)",0.0679***,0.0691***,-0.0041*,0.0001
+,(0.0213),(0.0206),(0.0021),(0.0019)
+Temperatura da pista² ,,-0.0021,0.0004**,0.0001
+,,(0.0015),(0.0002),(0.0002)
+Umidade relativa (%),-0.0088,-0.0084,-0.0004,-0.0003
+,(0.0134),(0.0133),(0.0010),(0.0010)
+Velocidade do vento (m/s),0.3241***,0.3050**,-0.0118,-0.0103
+,(0.1205),(0.1195),(0.0116),(0.0119)
+Observações,2200,2200,2195,2196
+R² (within),0.180,0.194,0.022,0.002
+Corridas (clusters),112,112,112,112

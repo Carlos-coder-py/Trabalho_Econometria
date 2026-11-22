@@ -1,0 +1,15 @@
+﻿Hipótese,Especificação,Coeficiente,Erro-padrão,p-valor,Observações
+H1,"Principal: ritmo, temperatura da pista (linear)",0.0679***,(0.0213),0.002,2200
+H1,Temperatura do ar no lugar da pista,0.1986***,(0.0295),"<0,001",2200
+H1,Temperatura média da corrida (não do piloto),0.0658***,(0.0211),0.002,2200
+H1,Ritmo relativo ao grid como variável dependente,0.0007,(0.0030),0.824,2200
+H1,Sem a temporada 2026 (novo regulamento),0.0664***,(0.0215),0.003,1838
+H1,Sem efeito fixo de piloto,0.0681***,(0.0211),0.002,2201
+H2,Principal: rodada ou acidente (MPL),0.0398,(0.0256),0.122,2673
+H2,"Rodada ou acidente — só 2021–2022 (causa oficial), sem efeito fixo de circuito",0.0884*,(0.0491),0.079,854
+H2,Rodada ou acidente — chuva medida pela proporção de voltas do piloto,0.2087*,(0.1256),0.099,2673
+H2,Rodada ou acidente — sem 2026,0.0372,(0.0312),0.235,2243
+H2,"Voltas lentas — Poisson (contagem, exposição = voltas)",1.6846***,(0.5766),0.003,2169
+H2,"Voltas anuladas — Poisson (contagem, exposição = voltas)",0.1542,(0.1938),0.426,2633
+H2,Voltas lentas por 100 voltas — limite de 8% (principal: 10%),0.5225***,(0.1614),0.002,2566
+H2,Voltas lentas por 100 voltas — limite de 15% (principal: 10%),0.2441,(0.1532),0.114,2566

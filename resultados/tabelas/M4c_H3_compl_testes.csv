@@ -1,0 +1,16 @@
+﻿Variável dependente,Interação,Pilotos,F,gl,p-valor,Sig.,Observações,Corridas (clusters)
+Ritmo relativo ao grid (%),Piloto × corrida molhada,32.0,5.32,31.0,"<0,001",***,2565.0,133.0
+Rodada ou abandono por acidente (0/1),Piloto × corrida molhada,32.0,3.205,31.0,"<0,001",***,2634.0,133.0
+Voltas lentas por 100 voltas,Piloto × corrida molhada,32.0,2.295,31.0,"<0,001",***,2529.0,133.0
+Inconsistência vs. grid (p.p.),Piloto × corrida molhada,32.0,9.426,31.0,"<0,001",***,2560.0,133.0
+Ritmo relativo ao grid (%) — corridas secas,Piloto × temperatura da pista,32.0,3.664,31.0,"<0,001",***,2167.0,112.0
+Ritmo relativo ao grid (%),Piloto × corrida molhada — com efeito fixo equipe × chuva (carro na chuva),30.0,4.367,29.0,"<0,001",***,2565.0,133.0
+Rodada ou abandono por acidente (0/1),Piloto × corrida molhada — com efeito fixo equipe × chuva (carro na chuva),30.0,3.627,29.0,"<0,001",***,2634.0,133.0
+Voltas lentas por 100 voltas,Piloto × corrida molhada — com efeito fixo equipe × chuva (carro na chuva),30.0,2.238,29.0,0.001,***,2529.0,133.0
+Inconsistência vs. grid (p.p.),Piloto × corrida molhada — com efeito fixo equipe × chuva (carro na chuva),30.0,3.745,29.0,"<0,001",***,2560.0,133.0
+Ritmo relativo ao grid (%),Piloto × corrida molhada — só pilotos com >= 8 corridas molhadas,23.0,3.397,22.0,"<0,001",***,2258.0,133.0
+Rodada ou abandono por acidente (0/1),Piloto × corrida molhada — só pilotos com >= 8 corridas molhadas,23.0,3.691,22.0,"<0,001",***,2317.0,133.0
+Voltas lentas por 100 voltas,Piloto × corrida molhada — só pilotos com >= 8 corridas molhadas,23.0,1.668,22.0,0.041,**,2225.0,133.0
+Inconsistência vs. grid (p.p.),Piloto × corrida molhada — só pilotos com >= 8 corridas molhadas,23.0,8.205,22.0,"<0,001",***,2253.0,133.0
+Ritmo relativo ao grid (%),Piloto × corrida molhada — teste de permutação (199 sorteios),,5.32,,0.075,*,,
+Rodada ou abandono por acidente (0/1),Piloto × corrida molhada — teste de permutação (199 sorteios),,3.205,,0.150,,,

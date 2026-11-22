@@ -1,0 +1,6 @@
+﻿Quintil,N,Temp_min,Temp_max,Ritmo_medio,Ritmo_residual,Inconsistencia_media,Inconsistencia_residual
+Q1 (mais fria),441,17.216,30.793,-0.251,-0.09,1.23,1.21
+Q2,440,30.794,35.453,0.039,0.023,1.158,1.182
+Q3,440,35.475,40.363,0.678,0.518,1.191,1.179
+Q4,440,40.369,45.195,0.28,0.273,1.133,1.141
+Q5 (mais quente),440,45.231,55.304,0.621,0.643,1.186,1.186

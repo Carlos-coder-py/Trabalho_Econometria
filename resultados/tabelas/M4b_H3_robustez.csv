@@ -1,0 +1,17 @@
+﻿Especificação,Coeficiente de interesse,(1) Rodada ou acidente (0/1),(2) Voltas lentas por 100 voltas,(3) Inconsistência vs. grid (p.p.),(4) Ritmo relativo ao grid (%)
+Principal (Tabela M4),Molhada × Exp,-0.0581***,-0.1172*,-0.0289*,-0.0757
+,,(0.0183),(0.0617),(0.0164),(0.0502)
+Experiência em dummy: veterano (acima da mediana de GPs),Molhada × Veterano,-0.0652*,-0.0481,-0.0539,0.0125
+,,(0.0370),(0.1059),(0.0384),(0.0875)
+"Experiência na chuva: log(1 + corridas molhadas anteriores, desde 2021)",Molhada × ExpChuva,-0.0678**,-0.0897,-0.0191,-0.1858**
+,,(0.0279),(0.0931),(0.0496),(0.0898)
+Controle de idade: + Molhada × Idade,Molhada × Exp,-0.0795***,-0.1554*,-0.0220,-0.1314*
+,,(0.0292),(0.0930),(0.0202),(0.0723)
+Efeito fixo piloto × chuva (só variação dentro do piloto),Molhada × Exp,-0.0776*,-0.0617,0.0106,-0.1906*
+,,(0.0419),(0.1664),(0.0522),(0.1115)
+Efeito fixo equipe × chuva (carro na chuva),Molhada × Exp,-0.0528***,-0.0848,-0.0279,-0.0665
+,,(0.0186),(0.0604),(0.0180),(0.0499)
+Erros agrupados por corrida e por piloto (agrupamento duplo),Molhada × Exp,-0.0581***,-0.1172*,-0.0289,-0.0757*
+,,(0.0194),(0.0679),(0.0180),(0.0440)
+Sem a temporada 2026,Molhada × Exp,-0.0668***,-0.1453**,-0.0311*,-0.0641
+,,(0.0197),(0.0653),(0.0177),(0.0547)
