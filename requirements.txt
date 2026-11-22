@@ -1,7 +1,3 @@
-# Clima e desempenho na Fórmula 1 — dependências
-# Python >= 3.10
-# Instalar com:  pip install -r requirements.txt
-
 # Coleta de dados (versão fixada: mudanças na biblioteca alteram a coleta)
 fastf1==3.9.0
 
