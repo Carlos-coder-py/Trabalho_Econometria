@@ -127,7 +127,7 @@ coletar de novo. Os códigos funcionam dentro de `src/` ou soltos na pasta raiz.
 
 ```bash
 git clone <URL-do-repositório>
-cd f1-clima-econometria
+cd Trabalho_Econometria
 python -m venv .venv
 source .venv/bin/activate            # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
